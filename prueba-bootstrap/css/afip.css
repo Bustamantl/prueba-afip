@@ -1,0 +1,105 @@
+#promo-panel .panel-heading {
+    height: 348px;
+}
+
+body.sticky-footer .main-footer {
+    display: block;
+    /*height: inherit;*/
+}
+
+
+/* jumbotron */
+
+.ie8 .jumbotron .jumbotron_body a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.ie8 .jumbotron .jumbotron_body a.btn {
+    text-decoration: none;
+}
+
+.ie8 .jumbotron {
+    padding: 0!important;
+}
+
+.container .jumbotron .jumbotron_body {
+    min-height: 486px;
+}
+
+
+/* vencimientos */
+
+.list-group-agenda .list-group-item {
+    padding: 8px 15px;
+}
+
+.agenda-info {
+    vertical-align: middle;
+}
+
+.agenda-date strong {
+    display: inline;
+    font-size: 21px;
+}
+
+.overlay {
+    background: rgba(4, 87, 125, 0.8);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#CC04577D, endColorstr=#CC04577D);
+}
+
+
+/*helpers*/
+
+.panel-border-l-danger {
+    border-left: 8px solid rgba(239, 77, 61, 0.7);
+}
+
+.panel-border-l-danger .panel-body {
+    padding-left: 12px;
+}
+
+.panel-border-l-warning {
+    border-left: 8px solid #f9a822;
+}
+
+.panel-border-l-warning .panel-body {
+    padding-left: 12px;
+}
+
+.ie8 .p-b-1 {
+    padding-bottom: 1em !important;
+}
+
+.ie8 .p-y-2 {
+    padding-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
+}
+
+.ie8 .m-t-2 {
+    margin-top: 1.2em !important;
+}
+
+
+/* medios de pagos styles */
+
+.item {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item.selected {
+    border: 3px solid #0695d6;
+}
+
+@media only screen and (max-width: 768px) {
+    .item {
+        width: 100%;
+    }
+}

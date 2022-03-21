@@ -1,0 +1,15 @@
+html{
+	font-size: 13px;
+
+}
+.card:hover{
+	box-shadow: 0 0 10px #0c0c0c3b;
+}
+
+.bg-primary{
+	background: #ff401c;
+}
+.text-primary{
+	color: red;
+
+}
